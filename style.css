@@ -8,12 +8,17 @@
 
 body{
     font-family: 'Overpass', sans-serif;
+    background-color:  hsl(216, 12%, 8%);
+}
+
+.inner-div{
+    /* display: block; */
 }
 
 .card-div {
-    height: 250px;
+    height: 260px;
     width: 250px;
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(213, 19%, 18%);
     border-radius: 20px;
     margin: 160px auto 0;    
     display: flex;
@@ -22,14 +27,19 @@ body{
 }
 
 .circle-div{
-    background-color:hsl(217, 12%, 63%);
-    height: 27px;
-    width: 27px;
+    background-color: hsl(212, 14%, 24%);
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
-    margin: 20px 0px 0px 20px
+    margin: 20px 0px 0px 20px;
 }
 
 #img-star{
     padding-top: 5px;
-    padding-left: 5px;
+    padding-left: 7px;
+}
+
+#heading{
+    margin: 20px 0px 0px 20px;
+    color: hsl(0, 0%, 100%);
 }
