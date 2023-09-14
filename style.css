@@ -69,3 +69,24 @@ body{
     font-size: 12px;
     font-weight: bold;
 }
+
+#circle1{
+    margin-left: 20px;
+}
+
+#circle2{
+    margin-left: 15px;
+}
+
+#circle3{
+    margin-left: 15px;
+}
+
+#circle4{
+    margin-left: 15px;
+}
+
+#circle5{
+    margin-left: 15px;
+    margin-right: 20px;
+}
