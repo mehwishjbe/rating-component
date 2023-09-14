@@ -115,3 +115,16 @@ body{
     background-color: hsl(25, 97%, 53%);
     cursor: pointer;
 }
+
+.submit-btn{
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 210px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 11px;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+}
