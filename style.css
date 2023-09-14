@@ -15,3 +15,11 @@
     align-items: none;
 }
 
+.circle-div{
+    background-color:hsl(217, 12%, 63%);
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    margin: 20px 0px 0px 20px
+}
+
