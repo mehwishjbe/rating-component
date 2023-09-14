@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card-div {
+    height: 250px;
+    width: 250px;
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 20px;
+    margin: 160px auto 0;    
+    display: flex;
+    justify-content: none;
+    align-items: none;
+}
+
