@@ -11,9 +11,9 @@ body{
     background-color:  hsl(216, 12%, 8%);
 }
 
-.inner-div{
-    /* display: block; */
-}
+/* .inner-div{
+    /* display: block; 
+} */
 
 .card-div {
     height: 260px;
