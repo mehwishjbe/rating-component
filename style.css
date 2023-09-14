@@ -50,3 +50,7 @@ body{
     font-weight: bold;
     color: hsl(0, 2%, 78%);
 }
+
+.circle-rank-line{
+    display: flex;
+}
