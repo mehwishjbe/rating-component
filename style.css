@@ -43,3 +43,10 @@ body{
     margin: 20px 0px 0px 20px;
     color: hsl(0, 0%, 100%);
 }
+
+.paragraph{
+    font-size: 9px;
+    margin: 10px 15px 0px 20px;
+    font-weight: bold;
+    color: hsl(0, 2%, 78%);
+}
