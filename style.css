@@ -90,3 +90,28 @@ body{
     margin-left: 15px;
     margin-right: 20px;
 }
+
+#circle1:hover{
+    background-color: hsl(217, 77%, 90%);
+    cursor: pointer;
+}
+
+#circle2:hover{
+    background-color: hsl(217, 25%, 77%);
+    cursor: pointer;
+}
+
+#circle3:hover{
+    background-color: hsl(215, 10%, 55%);
+    cursor: pointer;
+}
+
+#circle4:hover{
+    background-color: hsl(218, 8%, 47%);
+    cursor: pointer;
+}
+
+#circle5:hover{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
