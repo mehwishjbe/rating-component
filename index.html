@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <title>Interactive Rating Component</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="card-div">
-        <div class="inner-div">
-            <div class="circle-div"><img id="img-star" src="./images/icon-star.png" alt=""></div>
-            <div><h3 id="heading" >How did we do?</h3></div>
-            <div class="paragraph"><p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p></div>
-            <div class="circle-rank-line">
-                <div class="circle-rank" id="circle1">1</div>
-                <div class="circle-rank" id="circle2">2</div>
-                <div class="circle-rank" id="circle3">3</div>
-                <div class="circle-rank" id="circle4">4</div>
-                <div class="circle-rank" id="circle5">5</div>
-            </div>  
-            <button class="submit-btn">SUBMIT</button>
+      <div class="inner-div">
+        <div class="circle-div">
+          <img id="img-star" src="./images/icon-star.png" alt="" />
         </div>
+        <div><h3 id="heading">How did we do?</h3></div>
+        <div class="paragraph">
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+        <div class="circle-rank-line">
+          <div class="circle-rank" id="circle1">1</div>
+          <div class="circle-rank" id="circle2">2</div>
+          <div class="circle-rank" id="circle3">3</div>
+          <div class="circle-rank" id="circle4">4</div>
+          <div class="circle-rank" id="circle5">5</div>
+        </div>
+        <button class="submit-btn">SUBMIT</button>
+      </div>
+      <div id="result" style="color: white"></div>
     </div>
-    
+
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
