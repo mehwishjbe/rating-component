@@ -1,13 +1,13 @@
-var selectBtn4 = document.getElementById('circle4');
-selectBtn4.addEventListener('click', onClickBtn4);
+var listItems = document.querySelectorAll('.circle-rank'); // Use '.circle-rank-line' to select elements by class
+listItems.forEach(function(item) {
+  item.addEventListener('click', selectItem);
+  
+});
 
-var selectBtn5 = document.getElementById('circle5');
-selectBtn5.addEventListener('click', onClickBtn5);
-
-function onClickBtn4(){
-    document.getElementById('circle4').style.backgroundColor = 'hsl(217, 12%, 63%)';
-}
-
-function onClickBtn5(){
-    document.getElementById('circle5').style.backgroundColor = 'hsl(25, 97%, 53%)';
+function selectItem() {
+    var btn5 = document.getElementById('circle5')
+    this.style.backgroundColor = 'hsl(217, 12%, 63%)';
+     if(this === btn5){
+        this.style.backgroundColor = 'hsl(25, 97%, 53%)';
+     }
 }
