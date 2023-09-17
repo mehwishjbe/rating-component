@@ -34,10 +34,24 @@ circleElements.forEach(function (ele) {
   });
 });
 
+//passing circle text
 submitButton.addEventListener("click", function () {
   if (slectedRating !== null) {
-    const resultDiv = document.querySelector("#result");
-    resultDiv.textContent = "You have selected " + slectedRating + " out of 5";
+    const showRating = document.querySelector("#showRating");
+    showRating.textContent = "You have selected " + slectedRating + " out of 5";
   }
-  
 });
+
+//switching divs
+submitButton.addEventListener("click", switchDiv);
+function switchDiv(){
+  
+    if (slectedRating !== null) {
+      let firstDiv = document.querySelector('.card-div');
+      let thankYouDiv = document.querySelector('.thankYou');
+      firstDiv.style.display = 'none';
+      thankYouDiv.style.display = 'block';
+      const showRating = document.querySelector("#showRating");
+      showRating.textContent = "You have selected " + slectedRating + " out of 5";
+    }
+  }
