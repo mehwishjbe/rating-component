@@ -22,6 +22,7 @@ const circleElements = document.querySelectorAll(".circle-rank");
 
 let slectedRating = null;
 
+//selecting circle
 circleElements.forEach(function (ele) {
   ele.addEventListener("click", function () {
     const btn5 = document.getElementById("circle5");
