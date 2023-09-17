@@ -24,7 +24,11 @@ let slectedRating = null;
 
 circleElements.forEach(function (ele) {
   ele.addEventListener("click", function () {
+    const btn5 = document.getElementById("circle5");
     ele.style.backgroundColor = "hsl(217, 12%, 63%)";
+    if(ele === btn5){
+      btn5.style.backgroundColor = "hsl(25, 97%, 53%)"
+    }
     slectedRating = ele.textContent;
   });
 });
