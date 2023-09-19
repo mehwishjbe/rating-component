@@ -31,6 +31,7 @@ The project structure is simple and includes the following files and directories
 
 - `index.html`: The main HTML file for the result summary page.
 - `style.css`: The CSS stylesheet for styling the page.
+- `main.js/`: This directory contains the JavaScript file, main.js, which contains the code responsible for handling user interactions, like rating submissions and displaying the thank you message.
 - `images/`: A directory containing image assets used in the project.
 
 ## Usage
